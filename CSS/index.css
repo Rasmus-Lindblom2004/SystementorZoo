@@ -87,6 +87,7 @@ section.hero {
     margin: 70px 0px;
     background-size: cover;
     text-align: center;
+    border-radius: 10px;
 }
 
 h1.hero {
@@ -101,31 +102,169 @@ h1.hero {
     font-size: 70px;
 }
 
-table.animals {
+/* species start  */
+
+section.species {
     width: 100%;
-    border-collapse: separate;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 20px solid var(--dark-color-theme);
 }
 
-td.animals,
-tr.animals {
+h1.species {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+table.species {
+    width: calc(100% + 40px);
+    /* width: 100%; */
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin: -20px;
+}
+
+td.species,
+tr.species {
     padding: 0;
     margin: 0;
 }
 
-img.animals,
-p.animals,
-h1.animals {
+img.species {
     width: 15vw;
+    padding: 0 15px;
+}
+
+h2.species {
+    text-align: center;
+}
+
+p.amimals {
+    border: 0 10px;
+}
+
+td.species {
+    background-color: var(--lighter-color-theme);
+    width: 15vw;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* To Do start */
+
+section.to-do {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 20px solid var(--dark-color-theme);
+}
+
+h1.to-do {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+table.to-do {
+    width: calc(100% + 40px);
+    /* width: 100%; */
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin: -20px;
+}
+
+td.to-do,
+tr.to-do,
+th.to-do {
+    padding: 0;
+    margin: 0;
+}
+
+p.to-do {
+    border: 0 10px;
+}
+
+td.to-do,
+th.to-do {
+    background-color: var(--lighter-color-theme);
+    width: 15vw;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* animlas start  */
+section.animals {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-top: 20px solid var(--dark-color-theme);
+}
+
+h1.animals {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+table.animals {
+    width: 100%;
+    background-color: var(--lighter-color-theme);
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 2px solid var(--dark-color-theme);
+}
+
+/* Apply a border to the right of all but the last column */
+table.animals th:not(:last-child),
+table.animals td:not(:last-child) {
+    border-right: 2px solid var(--dark-color-theme);
+}
+
+/* Apply a border to the bottom of all but the last row */
+table.animals>thead>tr:not(:last-child)>th,
+table.animals>thead>tr:not(:last-child)>td,
+table.animals>tbody>tr:not(:last-child)>th,
+table.animals>tbody>tr:not(:last-child)>td,
+table.animals>tfoot>tr:not(:last-child)>th,
+table.animals>tfoot>tr:not(:last-child)>td,
+table.animals>tr:not(:last-child)>td,
+table.animals>tr:not(:last-child)>th,
+table.animals>thead:not(:last-child),
+table.animals>tbody:not(:last-child),
+table.animals>tfoot:not(:last-child) {
+    border-bottom: 2px solid var(--dark-color-theme);
 }
 
 td.animals {
-    background-color: var(--lighter-color-theme);
+    text-align: center;
 }
 
-td.animals:first-child {
-    padding-left: 0px;
+img.animals {
+    width: 70px;
 }
 
+p.animals,
+a.animals {
+    font-size: 20px;
+}
+
+/* mail-form start  */
+
+label.mail-form,
+input.mail-form {
+    display: block;
+}
 
 footer {
     margin: 0;

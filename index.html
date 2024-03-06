@@ -17,13 +17,19 @@
         <table class="navbar">
             <tr class="navbar">
                 <td class="navbar">
-                    <button class="navbar">1</button>
+                    <button class="navbar" onclick="location.href='#arter'">Våra Arter</button>
                 </td>
                 <td class="navbar">
-                    <button class="navbar">2</button>
+                    <button class="navbar" onclick="location.href='#att-göra'">Att göra</button>
                 </td>
                 <td class="navbar">
-                    <button class="navbar">3</button>
+                    <button class="navbar" onclick="location.href='#djur'">Våra Djur</button>
+                </td>
+                <td class="navbar">
+                    <button class="navbar" onclick="location.href='#map'">Hitta Hit</button>
+                </td>
+                <td class="navbar">
+                    <button class="navbar" onclick="location.href='#nyhets-mail'">Nyhets Mail</button>
                 </td>
             </tr>
         </table>
@@ -34,40 +40,40 @@
             <h1 class="hero">Välkomen till Systementor Zoo</h1>
         </section>
 
-
-        <section class="animals">
-            <table class="animals">
-                <tr class="animals">
-                    <td class="animals"><img class="animals" src="images/cat.png" alt="cat"></td>
-                    <td class="animals"><img class="animals" src="images/dogLogo.png" alt="dog"></td>
-                    <td class="animals"><img class="animals" src="images/parrot.png" alt="parrot"></td>
-                    <td class="animals"><img class="animals" src="images/chicken.png" alt="chicken"></td>
+        <section class="species">
+            <h1 id="arter" class="species">Våra arter</h1>
+            <table class="species">
+                <tr class="species">
+                    <td class="species"><img class="species" src="images/cat.png" alt="cat"></td>
+                    <td class="species"><img class="species" src="images/dogLogo.png" alt="dog"></td>
+                    <td class="species"><img class="species" src="images/parrot.png" alt="parrot"></td>
+                    <td class="species"><img class="species" src="images/chicken.png" alt="chicken"></td>
                 </tr>
-                <tr class="animals">
-                    <td class="animals">
-                        <h1 class="animals">Cat</h1>
-                        <p class="animals">
+                <tr class="species">
+                    <td class="species">
+                        <h2 class="species">Cat</h2>
+                        <p class="species">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi facere at dolor, error
                             odit mollitia quaerat voluptatum ipsam quasi. Eaque.
                         </p>
                     </td>
-                    <td class="animals">
-                        <h1 class="animals">Dog</h1>
-                        <p class="animals">
+                    <td class="species">
+                        <h2 class="species">Dog</h2>
+                        <p class="species">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi facere at dolor, error
                             odit mollitia quaerat voluptatum ipsam quasi. Eaque.
                         </p>
                     </td>
-                    <td class="animals">
-                        <h1 class="animals">Parrot</h1>
-                        <p class="animals">
+                    <td class="species">
+                        <h2 class="species">Parrot</h2>
+                        <p class="species">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi facere at dolor, error
                             odit mollitia quaerat voluptatum ipsam quasi. Eaque.
                         </p>
                     </td>
-                    <td class="animals">
-                        <h1 class="animals">Chicken</h1>
-                        <p class="animals">
+                    <td class="species">
+                        <h2 class="species">Chicken</h2>
+                        <p class="species">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi facere at dolor, error
                             odit mollitia quaerat voluptatum ipsam quasi. Eaque.
                         </p>
@@ -76,15 +82,204 @@
             </table>
         </section>
 
+        <section class="to-do" id="att-göra">
+            <h1 class="to-do">Att Göra i Parken</h1>
+            <table class="to-do">
+                <tr class="to-do">
+                    <th class="to-do">
+                        <h2 class="to-do">Lekplatser</h2>
+                    </th>
+                    <th class="to-do">
+                        <h2 class="to-do">Resturanger</h2>
+                    </th>
+                    <th class="to-do">
+                        <h2 class="to-do">Djur</h2>
+                    </th>
+                </tr>
+                <tr class="to-do">
+                    <td class="to-do">
+                        <p class="to-do">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a nihil facere
+                            veniam optio amet sapiente reiciendis, dolore ea expedita?</p>
+                    </td>
+                    <td class="to-do">
+                        <p class="to-do">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a nihil facere
+                            veniam optio amet sapiente reiciendis, dolore ea expedita?</p>
+                    </td>
+                    <td class="to-do">
+                        <p class="to-do">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a nihil facere
+                            veniam optio amet sapiente reiciendis, dolore ea expedita?</p>
+                    </td>
+                </tr>
+            </table>
+        </section>
 
-        <section>
-            att göra
+        <section class="animals" id="djur">
+            <h1 class="animals">Våra djur</h1>
+            <table class="animals">
+                <tr class="animals">
+                    <th class="animals">
+                        <h2 class="animals">Bild</h2>
+                    </th>
+                    <th class="animals">
+                        <h2 class="animals">Namn</h2>
+                    </th>
+                    <th class="animals">
+                        <h2 class="animals">Art</h2>
+                    </th>
+                    <th class="animals">
+                        <h2 class="animals">Vikt</h2>
+                    </th>
+                    <th class="animals">
+                        <h2 class="animals">Wikipedia</h2>
+                    </th>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/cat.png" alt="cat"></td>
+                    <td class="animals">
+                        <p class="animals">Whiskers</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Cat</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">8 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Cat">Wiki</a></td>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/dogLogo.png" alt="dog"></td>
+                    <td class="animals">
+                        <p class="animals">Max</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Dog</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">25 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Dog">Wiki</a></td>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/parrot.png" alt="parrot"></td>
+                    <td class="animals">
+                        <p class="animals">Polly</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Parrot</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">0.5 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Parrot">Wiki</a></td>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/chicken.png" alt="chicken"></td>
+                    <td class="animals">
+                        <p class="animals">Chuckers</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Chicken</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">3 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Chicken">Wiki</a></td>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/cat.png" alt="cat"></td>
+                    <td class="animals">
+                        <p class="animals">Mittens</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Cat</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">8 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Cat">Wiki</a></td>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/dogLogo.png" alt="dog"></td>
+                    <td class="animals">
+                        <p class="animals">Bella</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Dog</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">20 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Dog">Wiki</a></td>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/parrot.png" alt="parrot"></td>
+                    <td class="animals">
+                        <p class="animals">Rio</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Parrot</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">0.3 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Parrot">Wiki</a></td>
+                </tr>
+                <tr class="animals">
+                    <td class="animals"><img class="animals" src="images/chicken.png" alt="chicken"></td>
+                    <td class="animals">
+                        <p class="animals">Nugget</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">Chicken</p>
+                    </td>
+                    <td class="animals">
+                        <p class="animals">2 pounds</p>
+                    </td>
+                    <td class="animals"><a class="animals" href="https://en.wikipedia.org/wiki/Chicken">Wiki</a></td>
+                </tr>
+            </table>
         </section>
-        <section>
-            embed google map
+
+        <section id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32495.88595038438!2d17.954729041883045!3d59.39983140070555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d6db302726b%3A0xf29c835228dcf386!2sJENSEN%20yrkesh%C3%B6gskola%20Stockholm!5e0!3m2!1ssv!2sse!4v1709729397110!5m2!1ssv!2sse"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        <section>
-            formulär
+        <section id="nyhets-mail" class="mail-form">
+            <form class="mail-form" action="https://http-echo-server.azurewebsites.net">
+                <table class="mail-form">
+                    <tr class="mail-form">
+                        <td class="mail-form">
+                            <label class="mail-form" for="fnamn">För Namn*</label>
+                            <input class="mail-form" type="text" id="fnamn" required />
+                        </td>
+                    </tr>
+                    <tr class="mail-form">
+                        <td class="mail-form">
+                            <label class="mail-form" for="enamn">Efter Namn*</label>
+                            <input class="mail-form" type="text" id="enamn" required />
+                        </td>
+                    </tr>
+                    <tr class="mail-form">
+                        <td class="mail-form">
+                            <label class="mail-form" for="age">Födelse datum*</label>
+                            <input class="mail-form" type="date" id="age" required />
+                        </td>
+                    </tr>
+                    <tr class="mail-form">
+                        <td class="mail-form">
+                            <label class="mail-form" for="mail">E-Post Address*</label>
+                            <input class="mail-form" type="email" id="mail" required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Skicka in">
+                        </td>
+                    </tr>
+                </table>
+            </form>
         </section>
     </main>
 
