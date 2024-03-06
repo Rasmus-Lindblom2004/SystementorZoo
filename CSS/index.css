@@ -1,0 +1,89 @@
+:root {
+    --main-theme: #525CEB;
+    --secundary-theme: #2b2330;
+    --dark-color-theme: #3D3B40;
+    --light-color-theme: #e2e9f4;
+}
+
+* {
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: none;
+    padding: 0;
+    line-height: 1.5;
+    background-color: var(--light-color-theme);
+    min-height: 100vh;
+}
+
+header.header {
+    text-align: center;
+    background-color: var(--main-theme);
+    color: var(--light-color-theme)
+}
+
+h1.header {
+    padding: 10px;
+    margin: 0;
+}
+
+nav.navbar {
+    background-color: var(--secundary-theme);
+}
+
+button.navbar {
+    padding: 5px 15px;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+    color: var(--light-color-theme);
+    text-align: center;
+    font-size: 16px;
+}
+
+button.navbar:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+td.navbar,
+tr.navbar,
+table.navbar {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+td.navbar {
+    border-left: 2px solid var(--light-color-theme);
+}
+
+
+td.navbar:first-child {
+    border-left: none;
+}
+
+table.navbar {
+    border-collapse: separate;
+}
+
+main {
+    position: relative;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100vw;
+    background-color: var(--secundary-theme);
+    color: var(--light-color-theme);
+}
+
+main,
+section {
+    border: 2px solid black;
+    margin: 5px;
+}
